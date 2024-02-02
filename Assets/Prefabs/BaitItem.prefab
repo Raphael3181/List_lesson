@@ -174,8 +174,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baits_atlas: {fileID: 4343727234628468602, guid: 5db3a6b26bc93fe40b3473f69f349b1d, type: 2}
-  silver: {fileID: 21300000, guid: c7d99c1085078dd4393bcec7ef6f060f, type: 3}
-  gold: {fileID: 0}
+  silver: {fileID: 21300000, guid: 2bc2fc2619309a54b986f697a20d08ea, type: 3}
+  gold: {fileID: 21300000, guid: c7d99c1085078dd4393bcec7ef6f060f, type: 3}
   baitName: {fileID: 1434749411334147697}
   price: {fileID: 5649450723101586197}
   amount: {fileID: 2867664008471222326}

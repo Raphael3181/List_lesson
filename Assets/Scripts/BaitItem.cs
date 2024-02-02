@@ -11,7 +11,7 @@ public class BaitItem : MonoBehaviour
 
     public void LoadInfo(BaitsInfo baitsInfo)
     {
-        baitName.text = Localization.GetString("Baits", "price" + baitsInfo.id);
+        baitName.text = Localization.GetString("Baits", baitsInfo.id.ToString());
         price.text = baitsInfo.price.ToString();
         amount.text = $"Кол-во: {baitsInfo.amount}";
         baitImage.sprite = baits_atlas.GetSprite(baitsInfo.id.ToString());

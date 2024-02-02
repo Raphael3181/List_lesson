@@ -8,10 +8,11 @@ public class BaitLoader : ScrollInitializer
 {
     public List<BaitsInfo> list = new();
 
-    private void Awake()
+    private void Start()
     {
-        LoadBaits();
+        //LoadBaits();
         list = LoadArray<BaitsInfo>("baits").ToList(); //Получаем список наживок
+        Init();
     }
 
     private void LoadBaits()
