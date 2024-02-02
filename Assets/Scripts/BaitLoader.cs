@@ -13,6 +13,7 @@ public class BaitLoader : ScrollInitializer
         //LoadBaits();
         list = LoadArray<BaitsInfo>("baits").ToList(); //Получаем список наживок
         Init();
+        Debug.Log(scroll.totalCount);
     }
 
     private void LoadBaits()
